@@ -1,0 +1,61 @@
+body {
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans' sans-serif;
+    font-size: 18px;
+    height: 100vh;
+}
+
+hr {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.cartao {
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 20px;
+    height: 350px;
+    width: 320px;
+    gap: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.cartao .informacoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+}
+
+.cartao .informacoes img {
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.cartao .perfil {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+p, .numero {
+    font-weight: 700;
+}
+
+.idade, .cidade, .tipo-contador {
+    color: hsl(227, 10%, 46%);
+}
